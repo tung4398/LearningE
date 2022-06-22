@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "520309742874",
+    "project_id": "automatic-bond-311118",
+    "storage_bucket": "automatic-bond-311118.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520309742874:android:37857678e21edde8a7e0a3",
+        "android_client_info": {
+          "package_name": "com.example.learninge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520309742874-kieuplff5sj6uts4lvb2ll64vco7j7u8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB24LisG7JT123xMJz2VtNFS8XfS6a6YFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520309742874-kieuplff5sj6uts4lvb2ll64vco7j7u8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

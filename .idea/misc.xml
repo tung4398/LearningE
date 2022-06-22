@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable-v24/button.xml" value="0.106" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable-v24/button2.xml" value="0.106" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable-v24/gradient.xml" value="0.106" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable-v24/logo_background.xml" value="0.106" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.106" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable/ic_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable/ic_menu_camera.xml" value="0.141" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.141" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.141" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable/main_menu.xml" value="0.106" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/drawable/side_nav_bar.xml" value="0.106" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/activity_confirm.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/activity_index.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/activity_main1.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/activity_main3.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/activity_test.xml" value="0.11510416666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/activity_translate.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/app_bar_index.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/content_index.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/fragment_gallery.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/fragment_home.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/fragment_question_test.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/fragment_questions_test.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/fragment_slideshow.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/layout.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/layout2.xml" value="0.2359375" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/layout/nav_header_index.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/menu/activity_main_drawer.xml" value="0.225" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/menu/index.xml" value="0.225" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/menu/main_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/LearningE2/app/src/main/res/menu/navigation_menu.xml" value="0.21197916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
