@@ -1,5 +1,7 @@
 package com.example.learninge;
 
+import static com.example.learninge.MainActivity.result;
+
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -58,6 +60,7 @@ public class mainadapter extends RecyclerView.Adapter<mainadapter.ViewHolder> {
                     Intent intent = new Intent(context,Confirm.class);
                     intent.putExtra("level","cơ bản");
                     intent.putExtra("leveldata","easy");
+                    result.clear();
                     context.startActivity(intent);
 
                     }
@@ -65,6 +68,7 @@ public class mainadapter extends RecyclerView.Adapter<mainadapter.ViewHolder> {
                     Intent intent = new Intent(context,Confirm.class);
                     intent.putExtra("level","trung bình - khá");
                     intent.putExtra("leveldata","medium");
+                    result.clear();
                     context.startActivity(intent);
 
                     }
@@ -72,6 +76,7 @@ public class mainadapter extends RecyclerView.Adapter<mainadapter.ViewHolder> {
                     Intent intent = new Intent(context,Confirm.class);
                     intent.putExtra("level","giỏi");
                     intent.putExtra("leveldata","hard");
+                    result.clear();
                     context.startActivity(intent);
                     }
                 }

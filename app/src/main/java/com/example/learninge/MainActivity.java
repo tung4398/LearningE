@@ -10,8 +10,11 @@ import android.os.Looper;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 
+import java.util.ArrayList;
+
 
 public class MainActivity extends AppCompatActivity {
+    public static ArrayList<Integer> result = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,5 +1,8 @@
 package com.example.learninge;
 
+
+import static com.example.learninge.MainActivity.result;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -74,7 +77,6 @@ public class Test extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 View view =test.getChildAt(test.getCurrentItem());
-                RadioGroup radioGroup = view.findViewById(R.id.answers);
                 test.setCurrentItem(test.getCurrentItem() + 1);
             }
         });
@@ -88,7 +90,17 @@ public class Test extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                int point;
+                if (result.size() == 0){
+                    point = 0;
+                }
+                else{
+                    point = 5*result.size();
+                }
+                String point1 = String.valueOf(point);
+                Intent intent1 = new Intent(getApplicationContext(),Result.class);
+                intent1.putExtra("point",point1);
+                startActivity(intent1);
             }
         });
 

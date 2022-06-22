@@ -1,5 +1,6 @@
 package com.example.learninge;
 
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
@@ -30,10 +31,11 @@ import java.util.List;
 
 public class MainActivity2 extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     public DatabaseReference mDatabase;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        List<String> level = new ArrayList<String>();;
+        List<String> level = new ArrayList<String>();
         level.add("Cơ bản");
         level.add("Từ 500 - 600 toeic");
         level.add("Từ 700 trở lên");

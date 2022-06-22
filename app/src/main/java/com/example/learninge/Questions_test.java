@@ -1,5 +1,8 @@
 package com.example.learninge;
 
+
+import static com.example.learninge.MainActivity.result;
+
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -9,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 
@@ -36,6 +40,18 @@ public class Questions_test extends Fragment {
         C.setText(answer[2]);
         RadioButton D = view.findViewById(R.id.D);
         D.setText(answer[3]);
+        RadioGroup group = view.findViewById(R.id.answers);
+        group.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                RadioButton radioButton = (RadioButton) view.findViewById(checkedId);
+                String right = (String) radioButton.getText();
+                String right1 = question.true_answer;
+                if(right.equals(right1)){
+                    result.add(1);
+                }
+            }
+        });
         return view;
 
 
@@ -60,5 +76,6 @@ public class Questions_test extends Fragment {
         String answers = savedInstanceState.getString("answers");
         String true_answer = savedInstanceState.getString("true_answer");
         return new questions(question, answers, true_answer);
+
     }
 }
